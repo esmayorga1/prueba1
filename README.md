@@ -59,7 +59,7 @@ Data → Stores → Add new Store → PostGIS
 Configurar:
 
 - host: localhost  
-- port: 5432  
+- port: 5432  (o el numero de puerto de tu base de datos)
 - database: sigweb  
 - schema: public  
 - user/pass según tu instalación  
@@ -70,10 +70,10 @@ Publicar como **WMS + WFS**:
 | Capa | Tipo |
 |------|------|
 | barrios | Polygon |
-| manzanas | MultiPolygon |
+| manzanas | Polygon n |
 | construcciones | Polygon |
 | actividad | Polygon |
-| actividad_tipo | Table |
+| actividad_tipo | Polygon|
 | instituciones | Point |
 | escenarios deportivos | Point |
 
