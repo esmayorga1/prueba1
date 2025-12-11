@@ -1,4 +1,5 @@
-# Requisitos Previos
+# Guía de Instalación y Despliegue de la Aplicación SIG Web
+## Requisitos Previos
 Antes de ejecutar la aplicación, instala:
 
 ### PostgreSQL + PostGIS
@@ -14,7 +15,7 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 ---
 
-# 2. Configurar Base de Datos en PostgreSQL/PostGIS
+## 2. Configurar Base de Datos en PostgreSQL/PostGIS
 
 1. Crear una base de datos:
 
@@ -42,7 +43,7 @@ Incluye todas las tablas necesarias:
 - Instituciones
 - Escenarios deportivos y culturales
 
-# 3. Configuración de GeoServer
+## 3. Configuración de GeoServer
 
 ### 3.1 Crear Workspace
 Nombre: `sigweb`  
@@ -91,7 +92,7 @@ GeoServer → Styles → Upload
 
 ---
 
-# 4. Ejecutar la Aplicación Web
+## 4. Ejecutar la Aplicación Web
 
 1. Abrir el proyecto en **Visual Studio Code**  
 2. Abrir el archivo:
@@ -112,7 +113,7 @@ http://127.0.0.1:5500/
 
 ---
 
-# 🔗 5. Conexiones esperadas
+## 5. Conexiones esperadas
 
 ### GeoServer:
 ```
@@ -139,7 +140,7 @@ http://localhost:8080/geoserver/sigweb/ows?service=WFS
 /img/iconos/
 ```
 
-# ❗ 6. Problemas Comunes
+## 6. Problemas Comunes
 
 ### No aparecen capas
 - Revisar conexión con PostGIS  
@@ -158,7 +159,7 @@ Debe ejecutarse con **Live Server**, no abriendo el HTML directamente.
 
 ---
 
-# 📂 7. Estructura del Proyecto
+## 7 Estructura del Proyecto
 
 ```
 ├── css/
