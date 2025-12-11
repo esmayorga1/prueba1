@@ -1,5 +1,5 @@
-# Guía de Instalación y Despliegue de la Aplicación SIG Web
-## Requisitos Previos
+# Guía de Instalación y Despliegue de la Aplicación GeoUrbis
+## 1. Requisitos Previos
 Antes de ejecutar la aplicación, instala:
 
 ### PostgreSQL + PostGIS
@@ -12,8 +12,6 @@ https://geoserver.org/
 ### Visual Studio Code + Live Server
 Extensión Live Server:
 https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
-
----
 
 ## 2. Configurar Base de Datos en PostgreSQL/PostGIS
 
@@ -35,7 +33,7 @@ CREATE EXTENSION postgis;
 base_de_datos.sql
 ```
 
-La base de datos incluye siguientes tablas necesarias:
+El archivo base_de_datos.sql incluye siguientes tablas necesarias:
 - Barrios
 - Manzanas
 - Tipo de actividad 
@@ -70,7 +68,7 @@ Publicar como **WMS + WFS**:
 | Capa | Tipo |
 |------|------|
 | barrios | Polygon |
-| manzanas | Polygon n |
+| manzanas | Polygon |
 | construcciones | Polygon |
 | actividad | Polygon |
 | actividad_tipo | Polygon|
@@ -90,8 +88,6 @@ Cargar cada uno mediante:
 GeoServer → Styles → Upload
 ```
 
----
-
 ## 4. Ejecutar la Aplicación Web
 
 1. Abrir el proyecto en **Visual Studio Code**  
@@ -108,10 +104,7 @@ La aplicación se ejecutará en:
 ```
 http://127.0.0.1:5500/
 ```
-
 > Live Server es recomendado para cargar módulos ES6 y JSON locales.
-
----
 
 ## 5. Conexiones esperadas
 
@@ -156,8 +149,6 @@ GEOSERVER_HOME/webapps/geoserver/WEB-INF/web.xml
 
 ### JSON no carga
 Debe ejecutarse con **Live Server**, no abriendo el HTML directamente.
-
----
 
 ## 7 Estructura del Proyecto
 
