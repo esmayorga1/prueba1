@@ -67,13 +67,13 @@ Publicar como **WMS + WFS**:
 
 | Capa | Tipo |
 |------|------|
-| barrios | Polygon |
-| manzanas | Polygon |
-| construcciones | Polygon |
-| actividad | Polygon |
-| actividad_tipo | Polygon|
-| instituciones | Point |
-| escenarios deportivos | Point |
+| Barrios | Polygon |
+| Manzanas | Polygon |
+| Construcciones | Polygon |
+| Perimetro | Polygon|
+| Tipo de actividad | Polygon|
+| Instituciones | Point |
+| Escenarios deportivos | Point |
 
 ### 3.4 Estilos SLD
 Los estilos SLD están en:
