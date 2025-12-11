@@ -1,6 +1,6 @@
 # Guía de Instalación y Despliegue de la Aplicación GeoUrbis
 ## 1. Requisitos Previos
-Antes de ejecutar la aplicación, instala:
+Antes de ejecutar la aplicación, instalar:
 
 ### PostgreSQL + PostGIS
 https://www.postgresql.org/download  
