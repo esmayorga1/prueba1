@@ -35,7 +35,7 @@ CREATE EXTENSION postgis;
 base_de_datos.sql
 ```
 
-Incluye todas las tablas necesarias:
+La base de datos incluye siguientes tablas necesarias:
 - Barrios
 - Manzanas
 - Tipo de actividad 
